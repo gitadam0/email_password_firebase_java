@@ -32,7 +32,7 @@ public class login extends AppCompatActivity {
             startActivity(intent);
             finish();
         }
-        Toast.makeText(this, test, Toast.LENGTH_SHORT).show();
+
     }
 
     @Override
@@ -40,7 +40,7 @@ public class login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        String test="d";
+
 
         mAuth = FirebaseAuth.getInstance();
 
